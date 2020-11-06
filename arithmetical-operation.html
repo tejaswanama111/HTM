@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Arithmetical Operation Program In Python</title>
+        <link rel="stylesheet" href="nesting.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      <link rel="icon" href="image/logo.png" type="image/png">
+      <style>
+          div.class{
+              color : red
+          }
+          .codeblock .area {
+  background-color: rgb(30, 30, 30);
+  font-size: 20px;
+}
+
+ .maths {
+    color:red;
+    font-size: 18px;
+ }
+
+ body {
+  background-color: lightblue;
+}
+
+  .button {
+  padding: 5px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4caf4f;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 9px #999;
+}
+
+ .button:hover {background-color: #3e8e41}
+
+ .button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 0px 5px;
+  margin-top: 5px;
+  width: 100;
+}
+
+.socialmedia{
+  padding: 15px 0px;
+  margin: 15px;
+}
+
+      </style>
+
+    </head>
+    <body>
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/"><img class="brandLogo" src="image/logo.png" width ="50" height="50" "alt="My image"></a>
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+    
+            <li class="nav-item font-weight-bold">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+    
+            <li class="nav-item font-weight-bold">
+              <a class="nav-link" href="/videos">Videos</a>
+            </li>
+    
+            <li class="nav-item font-weight-bold">
+              <a class="nav-link" href="/blog">Blog</a>
+            </li>
+    
+            <li class="nav-item font-weight-bold">
+              <a class="nav-link" href="/contact">Contact Me</a>
+            </li>
+          </ul>
+    
+          <form class="form-inline my-2 my-lg-0 mr-3" method="get" action="/search/">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="query">
+            <button class="btn btn-danger my-2 my-sm-0" type="submit">Search</button>
+    
+          </form>
+          
+          <div>
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#loginModal">Login</button>
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#signupModal">SignUp</button>
+          </div>
+        </div>
+      </nav>
+      <br>
+          
+        <h1 style="text-align:center;">Arithmetical Operations In Python</h1>
+        <hr>
+<p style="text-align:center; color:green; font-size: 18px;">This is the second most basic thing in Python. In this you can do arithmetical operations like :</p>
+<ul class="maths">
+<li>Addition</li>
+<li>Subtraction</li>
+<li>Multiply</li>
+<li>Division</li>
+</ul>
+
+        <p style="font-size: 22px;"><strong>See this example:</strong></p>
+        <div class="codeblock">
+          <pre class='language-python'><textarea class ="area" rows="4" cols="30" style="color:white;" id="myInput">
+10+5
+10-5
+10*5
+10/5
+        </textarea></pre></div>
+
+        <div class="right"><button type="button" class="button" onclick="myFunction()">Copy</button></br></div>
+
+        <script>
+          function myFunction() {
+            var copyText = document.getElementById("myInput");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+          }
+        </script>
+        <br>
+<br><br>
+        <p><strong style="font-size: 22px;">Output:</strong></p>
+        <img src="images/arithmetical.png" >
+    </br></br>
+    <p style="color:red; text-align:right; text-decoration: underline">Note : This is not a Program</p>
+
+    <br>
+        <div class="nexttopicdiv" style="text-align:center;">
+            <span class="nexttopictext" style="font-size: 21px;">Next Topic : </span><span class="nexttopiclink"><a href="python-arithmetical-operations" style="font-size: 21px;">Python Program To Do Arithmetical Operations</a></span>
+            </div>
+            <!-- link -->
+            <br/><br/>
+            
+            <div id="bottomnext">
+            <a style="float:left" target="tejaswa" href="Hello-World-Program.html"><img src="image/back.png" width ="80" height="80"></a>
+            <a style="float:right" target="arithmetical-operation" href="number"><img src="image/next.png" width ="120" height="82"></a>
+            </div>
+            
+            <br><br>
+            <br>
+            </td></tr></table>
+            <div class="socialmedia" style ="text-align:center;" >
+            <center><a target="youtube" href="https://youtube.com/channel/UC1EwNOlgZJDBUbgznXRMcnw"><img src="image/youtube.webp" width ="100" height="40" alt="youtube"></a></center>
+                           </div>
+                            
+                           <footer class="container-fluid bg-dark my-0 py-3 text-light">
+                            <p class="mb-0 text-center">&copy; 2020-2021 CodeByBrain.com</p>
+                            <p class="mb-0 text-center">
+                              <a href="#">Back to top |</a>
+                              <a href="#">Privacy |</a>
+                              <a href="#">Terms</a>
+                            </p>
+                        
+                          </footer>
+    </body>
+</html>
